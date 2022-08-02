@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Lanchonete Quero+</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://static.wixstatic.com/media/b4bd4c_c4135f4eb23348ad88078b0206320446~mv2.png/v1/fit/w_817%2Ch_483%2Cal_c/file.png" alt="Quero +" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Salgado Gourmet</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="sobre">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://i.pinimg.com/originals/92/ee/0a/92ee0a461e695eaaaf49141f7160d848.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Sobre Quero+</h1><br>
+      <h5 class="w3-center">Inaugurada em 2021</h5>
+      <p class="w3-large">A lanchonete QUERO+ foi fundada em 2021 pelas irmâs Vitória e Valéria, em Ponte Nova, MG. Elas trouxeram conforto e satisfação através dos salgados Gourmet fabricado por elas. Seus salgados foram considerados os melhores da cidade com ingredientes fantásticos. <span class="w3-tag w3-light-grey"></span></p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu  -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Menu</h1><br>
+      <h4>Coxinha</h4>
+      <p class="w3-text-grey">frango c/catupiry, calabresa e bacon 3.50$</p><br>
+    
+      <h4>Assados</h4>
+      <p class="w3-text-grey">Cachorro Quente(vai ao forno), Joelho de Moça, Empada e Pastel de Frango 3.50$</p><br>
+    
+      <h4>Pastéis</h4>
+      <p class="w3-text-grey">Frango, Carne Moída, Queijo e Pizza 4.00$</p><br>
+    
+      <h4>Trufas</h4>
+      <p class="w3-text-grey">Brigadeiro Tradicional, Ninho, Beijinho, Maracujá e Brigadeiro Branco 2.50$</p><br>
+    
+      <h4>Bolo de Pote</h4>
+      <p class="w3-text-grey">Brigadeiro, Beijinho e Brigadeiro branco c/Ganache</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/https:/i.pinimg.com/originals/92/ee/0a/92ee0a461e695eaaaf49141f7160d848.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contato -->
+  <div class="w3-container w3-padding-64" id="contato">
+    <h1>Contato</h1><br>
+    <p>Conforto e satisfação é na lanchonete QUERO+.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Quero+, José Alberto Bergamini, 46, Ponte Nova, MG</b></p>
+    <p>Telefone:(31) 98348-8004 ou Email: vitoriamirandadeoliveira65@gmail.com:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="N° de pessoas" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagens" required name="Mensagem"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">MENSAGEM</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Feito por <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ana Vitória</a></p>
+</footer>
+
+</body>
+</html>
